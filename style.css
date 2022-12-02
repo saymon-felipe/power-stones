@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-core {
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#core-canvas {
+    background-color: white;
+}
